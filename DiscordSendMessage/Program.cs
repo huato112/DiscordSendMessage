@@ -9,12 +9,12 @@ namespace DiscordSendMessage
     class Program
     {
         DiscordWebhookClient _clientWebhook;
-        string webhook = "https://discord.com/api/webhooks/918525358393921607/IddGiFQyaOG2E7jB4nqlbivzw1Yx6WD49uzTU0Opelg4fV3mVa9t5W24-j-HBweI3Ai8";
+        string webhook = "yourWebhookApi";
 
         DiscordSocketClient _client;
-        ulong channelId = 918039910211022869;
-        ulong guildId = 918039867202605066;
-        String tokenBot = "Mzk5MjQ4NTI2OTQ2NTk4OTEy.WlEDKg.T8aAMUae2HVR0ngXdHnO_niSLHE";
+        ulong channelId = yourChannelId;
+        ulong guildId = yourguildId;
+        String tokenBot = "yourToken";
 
         static void Main(string[] args)
         {
